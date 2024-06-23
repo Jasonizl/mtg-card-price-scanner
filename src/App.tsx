@@ -17,16 +17,16 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <Typography variant='h2'>Vite + React</Typography>
+      <Typography variant="h2">Vite + React</Typography>
       <div className="card">
-        <Button onClick={() => setCount((count) => count + 1)} variant='outlined'>
+        <Button onClick={() => setCount((count) => count + 1)} variant="outlined">
           count is {count}
         </Button>
-        <Typography variant='body1' padding="10px">
+        <Typography variant="body1" padding="10px">
           Edit <code>src/App.tsx</code> and save to test HMR
         </Typography>
       </div>
-      <Typography variant='body2' className="read-the-docs">
+      <Typography variant="body2" className="read-the-docs">
         Click on the Vite and React logos to learn more
       </Typography>
     </>
